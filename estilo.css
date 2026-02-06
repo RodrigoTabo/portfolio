@@ -129,6 +129,15 @@ html { font-size: 14px; }
   color: rgba(255,255,255,.65) !important;
 }
 
+.footer-section a {
+  transition: transform .15s ease, opacity .15s ease;
+  opacity: .85;
+}
+.footer-section a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
 
 /* Colores sólidos (tipo btn-primary) */
 .btn-github    { background:#181717; border-color:#181717; color:#fff; }
