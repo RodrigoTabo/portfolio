@@ -130,7 +130,7 @@ html { font-size: 14px; }
 }
 
 .footer-section a {
-  transition: transform .15s ease, opacity .15s ease;
+  transition: transform .18s ease, opacity .18s ease;
   opacity: .85;
 }
 .footer-section a:hover {
